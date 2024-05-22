@@ -16,8 +16,8 @@
     // internet connectivity.
     .dependencies = .{
         .@"extism-pdk" = .{
-            .url = "https://github.com/extism/zig-pdk/archive/336af879aaa1794ffbaccf9ae52b655f54e832ac.tar.gz",
-            .hash = "1220622d8ce005e44f89c764fd49eda1107e4c88bdc05240efd2884955e281c299ca",
+            .url = "https://github.com/extism/zig-pdk/archive/refs/tags/v1.1.0.tar.gz",
+            .hash = "1220e0aae36b81e1b99f86717dc67101fe0dcdc57c0ac05e1100aefb291f6dc4f7e0",
         },
     },
     .paths = .{
