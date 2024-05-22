@@ -9,7 +9,7 @@ pub fn build(b: *std.Build) !void {
     const pdk_module = b.dependency("extism-pdk", .{ .target = target, .optimize = optimize }).module("extism-pdk");
     var plugin = b.addExecutable(.{
         .name = "zig-pdk-template",
-        .root_source_file = .{ .path = "src/main.zig" },
+        .root_source_file = b.path("src/main.zig"),
         .target = target,
         .optimize = optimize,
     });
